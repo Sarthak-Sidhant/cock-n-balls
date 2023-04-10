@@ -1,8 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Trebuchet MS", monospace;
     margin: 0;
     padding: 20px;
-    background-color: #ffcccb; /* light pink background color */
+    background-color: #222; /* dark background color */
+    color: #fff; /* white text color */
 }
 
 h1 {
@@ -36,6 +37,7 @@ input {
     border: none;
     border-radius: 5px;
     background-color: #fce4ec; /* light pinkish color for input fields */
+    width: 100%; /* make input fields responsive */
 }
 
 button {
@@ -47,11 +49,12 @@ button {
     background-color: #ff69b4; /* hot pink color for button */
     color: #fff; /* white text color for button */
     cursor: pointer;
+    width: 100%; /* make button responsive */
 }
 
 p {
     margin-bottom: 10px;
-    color: #333; /* dark gray color for paragraph text */
+    color: #ccc; /* light gray color for paragraph text */
 }
 
 #result {
