@@ -4,6 +4,7 @@ body {
     padding: 20px;
     background-color: #222; /* dark background color */
     color: #fff; /* white text color */
+    text-align: center;
 }
 
 h1 {
@@ -12,7 +13,7 @@ h1 {
 }
 
 h3 {
-    color: #ff69b4; /* hot pink color for h3 headings */
+    color: #8ACB88; /* hot pink color for h3 headings */
 }
 
 h4 {
