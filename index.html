@@ -19,6 +19,21 @@
         <input type="number" id="ball-diameter" name="ball-diameter" step="0.01">
         <button type="button" onclick="calculateVolume()">Calculate</button>
     </form>
+    <form id="calculator-form">
+        <label for="name">Name:</label>
+        <p>Input Units = Inches</p>
+    <input type="text" id="name" name="name" required>
+    <label for="cock-cylinder-length">Cock Cylinder Length:</label>
+    <input type="number" id="cock-cylinder-length" name="cock-cylinder-length" required>
+    <label for="cock-circumference">Cock Circumference:</label>
+    <input type="number" id="cock-circumference" name="cock-circumference" required>
+    <label for="ball-diameter">Ball Diameter:</label>
+    <input type="number" id="ball-diameter" name="ball-diameter" required>
+    <button type="submit">Calculate</button>
+</form>
+
+<div id="result"></div>
+
     <p id="result"></p>
     <script src="script.js"></script>
 </body>
