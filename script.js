@@ -1,4 +1,4 @@
-document.getElementById("input-form").addEventListener("submit", function (event) {
+document.getElementById("calculator-form").addEventListener("submit", function (event) {
     event.preventDefault();
 
     const name = document.getElementById("name").value;
